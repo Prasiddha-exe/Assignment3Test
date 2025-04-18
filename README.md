@@ -2,7 +2,7 @@
 
 # **Overview of the Project - Ferry Requisition Booking System**
 
-The program functions as a basic Python platform which handles ferry reservation management.
+The program functions as a basic Python platform which handles and compiles ferry reservation management.
 Through this system users can input their information while selecting requested services after which the program determines the total cost of services for their booking. 
 The system establishes three booking statuses through which it approves or reserves or disapproves bookings depending on their cost.
 The program prints out the summary results after processing multiple booking data.
