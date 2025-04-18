@@ -1,4 +1,3 @@
-
 ticket_number = 20000
 
 all_bookings = []
@@ -16,7 +15,8 @@ class BookingSystem():
         self.service_price = 0
         self.status = "Pending"
         self.approval_ref = ""
-        
+
+    
 # providing the customer data
     def customer_info(self):
         print("\n Customer Info ")
@@ -49,6 +49,7 @@ class BookingSystem():
             self.status = "Approved"
         self.approval_ref = self.id_number[:4]
 
+    
 # for final output results 
     def display_booking_info(self):
         print("\n Printing Booking : ")
@@ -77,6 +78,7 @@ print("Total bookings:", len(all_bookings))
 approved = 0
 pending = 0
 not_approved = 0
+
 
 for b in all_bookings:
     if b.status == "Approved":
