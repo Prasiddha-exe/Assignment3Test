@@ -7,13 +7,13 @@ Through this system users can input their information while selecting requested 
 The system establishes three booking statuses through which it approves or reserves or disapproves bookings depending on their cost.
 The program prints out the summary results after processing multiple booking data.
 
-# **Simplicity of the code – KISS ( Keep it Simple , Stupid )**
+# **Simplicity of the code – KISS ( Keep it Simple , Stupid. )**
 
 The program designers maintained a straightforward and understandable code structure.
 Each section within the program uses simple direct language while completely avoiding processes that lead to confusion.
-Inside a single class the program contains various functions which manage separate operational segments of the task.
+Inside a single class the program contains various functions which manages separate operational segments of the task.
 Advanced logic remains absent and excessive abstraction does not exist. 
-By applying KISS principles the code becomes easy to maintain because it simplifies change and fix possibilities in the future.
+By applying KISS principles the code becomes easy to maintain because it simplifies the change and fix possibilities in the future.
 
 # **DRY**
 
