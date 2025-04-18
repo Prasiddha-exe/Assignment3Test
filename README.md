@@ -49,7 +49,7 @@ Additional protection mechanisms to prevent empty input do not exist currently.
 Bookings are still processed even when users provide no name in the booking form.
 Better input checks will be implemented throughout future updates.
 
-# **Conclusion **
+# **Conclusion**
 
 The ferry requisition system presents an uncomplicated example of Python-based data collection as well as decision-making and result output functionality.
 The implementation demonstrates real-world application of programming guidelines such as including KISS, DRY and Single Responsibility. 
