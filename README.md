@@ -17,27 +17,27 @@ By applying KISS principles the code becomes easy to maintain because it simplif
 
 # **DRY**
 
-The programming code prevents the unnecessary duplicate display of identical lines throughout the codebase. 
+The programming code prevents the unnecessary duplicate display of identical lines that is throughout the codebase. 
 The program implements reusable functions that eliminate unnecessary repetition of print statements and calculations.
-Three significant business functions maintain separate individual methods within the system including customer information handling and service evaluation along with price calculation.
-The system maintains the DRY principle throughout its development.
+Three significant business functions maintain separate individual methods within the system including customer information handling and services evaluation along with price calculation.
+The system maintains the DRY principles throughout its development.
 
 
 
 # **Adding the Features in the codes – Open/Closed Rule** 
 
-The system design allows programmers to add new rules or enhance existing ones without altering the entire program structure.
-A single method serves as the editing point for implementing discount codes and special approval rules in the approval logic.
+The system design allows programmers to add new rules or enhance existing ones without altering the entire program structures.
+A single method serves as the editing point for implementing discounts codes and special approval rules in the approval logic.
 
 
 # **Composition**
 
-The booking system runs from one single class thus maintaining proper organizational unity.
-The distribution of code across multiple small classes becomes unnecessary when using this method for managing a project of this size.
+The booking system runs from one single class thus this maintaining proper organizational unity.
+The distribution of code across multiple small classes becomes unnecessary when we are using this method for managing a project of this size.
 
 # **Focused Functions – Single Responsibility**
 
-Every function within a class operates independently to perform one duty.
+Every function within a class operates independently to perform one duty at a time.
 The class contains separate functions that deal with user information as well as approval procedures before showing the booking results. 
 The structure of the code allows viewers to grasp each segment individually.
 
@@ -49,10 +49,10 @@ Additional protection mechanisms to prevent empty input do not exist currently.
 Bookings are still processed even when users provide no name in the booking form.
 Better input checks will be implemented throughout future updates.
 
-# **Conclusion**
+# **Conclusion **
 
 The ferry requisition system presents an uncomplicated example of Python-based data collection as well as decision-making and result output functionality.
-The implementation demonstrates real-world application of programming guidelines including KISS, DRY and Single Responsibility. 
+The implementation demonstrates real-world application of programming guidelines such as including KISS, DRY and Single Responsibility. 
 The system functions imperitably though it exemplifies how functions and classes enable production of clean working code through straightforward solutions. 
 The code will become more reliable in the upcoming updates following improvements in validation techniques and separation logic implementation.
 
